@@ -1,7 +1,3 @@
-/*
- * aes-cli build
- */
-
 plugins {
     id("hahn.crypto.java-application-conventions")
 }
@@ -12,6 +8,5 @@ dependencies {
 }
 
 application {
-    // Define the main class for the application.
     mainClass.set("hahn.crypto.aes.cli.Main")
 }
